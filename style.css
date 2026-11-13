@@ -1,0 +1,123 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #eef2ff;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 550px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #1e3a8a;
+    font-size: 25px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #64748b;
+    margin-bottom: 25px;
+}
+
+.card {
+    background: white;
+    padding: 22px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+}
+
+h2 {
+    color: #1e40af;
+    font-size: 19px;
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #334155;
+    margin-top: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 7px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+input[readonly] {
+    background: #f1f5f9;
+}
+
+button {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 17px;
+    cursor: pointer;
+}
+
+.compute {
+    background: #2563eb;
+}
+
+.save {
+    background: #16a34a;
+}
+
+.clear {
+    background: #64748b;
+}
+
+.view {
+    background: #7c3aed;
+}
+
+button:active {
+    opacity: 0.8;
+}
+
+button:disabled {
+    opacity: 0.6;
+}
+
+.student-item {
+    padding: 12px;
+    margin-top: 10px;
+    background: #f1f5f9;
+    border-radius: 8px;
+    overflow-wrap: anywhere;
+}
+
+.student-item strong {
+    color: #1e3a8a;
+}
+
+footer {
+    text-align: center;
+    color: #64748b;
+    font-size: 12px;
+    margin: 25px 0;
+}
